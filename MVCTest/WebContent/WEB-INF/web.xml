@@ -25,14 +25,28 @@
     <servlet-name>form</servlet-name>
     <url-pattern>/mvc01/form</url-pattern>
   </servlet-mapping>
-  
   <servlet>
-  	<servlet-name>SampleController</servlet-name>
-  	<servlet-class>mvc01.SampleController</servlet-class>
+    <servlet-name>SampleController</servlet-name>
+    <servlet-class>mvc01.SampleController</servlet-class>
   </servlet>
-  
   <servlet-mapping>
-  	<servlet-name>SampleController</servlet-name>
-  	<url-pattern>*.nhn</url-pattern>
+    <servlet-name>SampleController</servlet-name>
+    <url-pattern>*.nhn</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SampleCnt</servlet-name>
+    <servlet-class>mvc02.SampleCnt</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SampleCnt</servlet-name>
+    <url-pattern>*.action</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>CommandController</servlet-name>
+  <servlet-class>mvc03.CommandController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>CommandController</servlet-name>
+  <url-pattern>*.do</url-pattern>
   </servlet-mapping>
 </web-app>

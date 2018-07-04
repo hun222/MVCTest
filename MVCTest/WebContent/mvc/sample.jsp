@@ -53,5 +53,11 @@
 	
 	<!-- 확장자 패턴 -->
 	<a href="http://localhost:8081/MVCTest/abc/xyz/xxx.nhn">nhn</a>
+	<br><br><br>
+	
+	<a href="http://localhost:8081/MVCTest/write.action">SampleCnt - write</a>
+	<br>
+	<a href="http://localhost:8081/MVCTest/list.action">SampleCnt - list</a>
+	<br>
 </body>
 </html>
