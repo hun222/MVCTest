@@ -5,9 +5,12 @@ import javax.servlet.http.HttpServletResponse;
 
 public class Delete {
 
-	public void action(HttpServletRequest request, HttpServletResponse response) {
+	public String action(HttpServletRequest request, HttpServletResponse response) {
 		// TODO Auto-generated method stub
 		System.out.println("delete action");
+		
+		request.setAttribute("chk", 1);
+		return "/mvc03/delete.jsp";
 	}
 
 }

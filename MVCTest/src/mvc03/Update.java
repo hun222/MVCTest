@@ -5,9 +5,11 @@ import javax.servlet.http.HttpServletResponse;
 
 public class Update {
 
-	public void action(HttpServletRequest request, HttpServletResponse response) {
+	public String action(HttpServletRequest request, HttpServletResponse response) {
 		// TODO Auto-generated method stub
 		System.out.println("update action");
+		
+		return "/mvc03/update.jsp";
 	}
 
 }
