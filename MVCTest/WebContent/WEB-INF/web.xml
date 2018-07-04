@@ -9,13 +9,30 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  
   <servlet>
-  	<servlet-name>ABC</servlet-name>
-  	<servlet-class>mvc01.ABC</servlet-class>
+    <servlet-name>ABC</servlet-name>
+    <servlet-class>mvc01.ABC</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>ABC</servlet-name>
-  	<url-pattern>/mvc01/ABC</url-pattern>
+    <servlet-name>ABC</servlet-name>
+    <url-pattern>/mvc01/ABC</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>form</servlet-name>
+    <servlet-class>mvc01.Form</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>form</servlet-name>
+    <url-pattern>/mvc01/form</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>SampleController</servlet-name>
+  	<servlet-class>mvc01.SampleController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>SampleController</servlet-name>
+  	<url-pattern>*.nhn</url-pattern>
   </servlet-mapping>
 </web-app>
