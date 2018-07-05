@@ -42,11 +42,19 @@
     <url-pattern>*.action</url-pattern>
   </servlet-mapping>
   <servlet>
-  <servlet-name>CommandController</servlet-name>
-  <servlet-class>mvc03.CommandController</servlet-class>
+    <servlet-name>CommandController</servlet-name>
+    <servlet-class>mvc03.CommandController</servlet-class>
   </servlet>
   <servlet-mapping>
-  <servlet-name>CommandController</servlet-name>
-  <url-pattern>*.do</url-pattern>
+    <servlet-name>CommandController</servlet-name>
+    <url-pattern>*.do</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>CommandCtrl</servlet-name>
+    <servlet-class>mvc04.CommandCtrl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CommandCtrl</servlet-name>
+    <url-pattern>*.sam</url-pattern>
   </servlet-mapping>
 </web-app>
